@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Flask Site</title>
+  <style>
+    body {
+        background-image: url({{ url_for('static', filename='images/background.gif') }});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+</head>
+<body>
+    <h1>wassup world</h1>
+</body>
+</html>
