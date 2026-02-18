@@ -1,2 +1,5 @@
 # flask-web
-Flask web app containerized with Docker, developed as a homework project for CSCI143: Big Data.
+This is a simple Flask web app deployed locally with Docker. It has a background image and a greeting message.
+
+
+![Screenshot of the site](site_screenshot.png)
